@@ -24,5 +24,11 @@ dotnet ef database update
 </Add model>
 
 <Scaffolding>
-
+https://aka.ms/RazorPagesCRUD
+Tag Helper
+<!-- <form method="post">
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<label asp-for="Movie.Title" class="control-label"></label>
+<input asp-for="Movie.Title" class="form-control" />
+<span asp-validation-for="Movie.Title" class="text-danger"></span> -->
 </Scaffolding>
