@@ -32,3 +32,9 @@ Tag Helper
 <input asp-for="Movie.Title" class="form-control" />
 <span asp-validation-for="Movie.Title" class="text-danger"></span> -->
 </Scaffolding>
+
+<DataBase>
+dotnet ef database drop
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+</Database>
